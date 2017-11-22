@@ -2081,7 +2081,7 @@ def bot(op):
         if op.type == 24:
             if wait["leaveRoom"] == True:
                 cl.leaveRoom(op.param1)
-        if op.type == 25:
+        if op.type == 26:
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
@@ -2101,7 +2101,7 @@ def bot(op):
             if msg.contentType == 16:
                 url = msg.contentMetadata("line://home/post?userMid="+mid+"&postId="+"new_post")
                 cl.like(url[25:58], url[66:], likeType=1001)
-        if op.type == 25:
+        if op.type == 26:
             msg = op.message
             if msg.contentType == 13:
                if wait["wblack"] == True:
@@ -2187,7 +2187,7 @@ def bot(op):
                 kicker = random.choice(klist)
                 kicker.kickoutFromGroup(msg.to,[midd])
 
-        if op.type == 25:
+        if op.type == 26:
             msg = op.message
             if msg.contentType == 13:
             	if wait["winvite"] == True:
