@@ -2425,7 +2425,7 @@ def bot(op):
             elif msg.text in ["hi"]:
                 cl.sendText(msg.to,"Hi 􀜁􀅔Har Har􏿿")
                 cl.sendText(msg.to,"follow IG saya 􀜁􀅔Har Har􏿿")
-                cl.sendText(msg.to,"instagram.com/gianandaal 􀜁􀅔Har Har􏿿")
+                cl.sendText(msg.to,"instagram.com/Alrahmanto_Selebgram 􀜁􀅔Har Har􏿿")
 
 #-----------------------------------------------
 
@@ -2434,7 +2434,7 @@ def bot(op):
                 kk.sendText(msg.to,"Hinata pekok 􀜁􀅔Har Har􏿿")
                 kc.sendText(msg.to,"Hinata pekok 􀜁􀅔Har Har􏿿")
             elif msg.text in ["/creator"]:
-                cl.sendText(msg.to,"==========BotCreator==========\n\nĜ̵͑̎I̸̛̽̕A̴̿̀͠N̷̋̿͝Ȁ̵̔̀N̷̋̿͝D̴́͗͘Ȁ̵̔̀\n==>'Instagram.com/gianandaal'<==\n\nWajib follow􀜁􀅔Har Har􏿿")
+                cl.sendText(msg.to,"==========BotCreator==========\n\Aan Jutawan\n==>'Instagram.com/gianandaal'<==\n\nWajib follow􀜁􀅔Har Har􏿿")
 
             elif msg.text in ["bobo ah","Bobo dulu ah"]:
                 cl.sendText(msg.to,"Have a nice dream  􀜁􀅔Har Har􏿿")
