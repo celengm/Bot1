@@ -113,7 +113,7 @@ def autolike():
         if hasil['result']['posts'][zx]['postInfo']['liked'] == False:#Tolong Kerjasama-nya untuk tidak merubah komen secara keseluruhan terutama pada URL Channel Youtube Saya, kalau mau ditambah dikit silahkan
           try:
             cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Autolike By Corn. \n\n http://line.me/ti/p/~raghdahassa.p.c")
+            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Autolike By Aan. \n\n http://line.me/ti/p/~Alrahmantoganteng")
             print "Like"
           except:
             pass
